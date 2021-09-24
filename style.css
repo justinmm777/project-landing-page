@@ -14,7 +14,7 @@ body {
 .top-box {
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(255, 0, 106);
+    /* border: 2px solid rgb(255, 0, 106); */
     background: #1f2937;
     color: #f9faf8;
    
@@ -22,7 +22,7 @@ body {
 
 .header-link {
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     justify-content: space-around;
     align-items: center;
 }
@@ -47,7 +47,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid rgb(15, 146, 74);
+    /* border: 2px solid rgb(15, 146, 74); */
 }
 
 .head-para {
@@ -56,7 +56,7 @@ a {
     flex-direction: column;
     padding: 16px;
     align-items: flex-start;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .head-para > h1 {
@@ -70,6 +70,15 @@ a {
     color: #e5e7eb;
 }
 
+.signup {
+    display: flex;
+    background: #3882f6;
+    border: none;
+    padding: 8px 28px;
+    border-radius: 1rem;
+
+}
+
 .header-image {
     display: flex;
     flex: 0 0 450px;
@@ -80,9 +89,57 @@ a {
     margin: 16px;
 }
 
+.header-image > p {
+    font-size: 12px;
+}
+
 img {
 
     max-width: 100%;
     height: auto;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(223, 14, 25);
+}
+
+.info > h1 {
+    align-self: center;
+    border: 2px solid green;
+}
+.product-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(43, 21, 245);
+}
+
+.outer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 100px;
+    border: 2px solid rgb(19, 134, 4);
+}
+
+.box {
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 4px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    width: 100px;
+    flex: 0 0 100px;
+}
