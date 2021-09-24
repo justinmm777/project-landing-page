@@ -45,7 +45,7 @@ a {
 
 .head-para {
     display: flex;
-    flex: 0 0 450px;
+    flex: 0 1 450px;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 16px;
@@ -95,13 +95,11 @@ img {
 .container {
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(223, 14, 25);
 }
 
 .info > h1 {
@@ -130,4 +128,75 @@ img {
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     width: 100px;
     flex: 0 0 100px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.para {
+    display: flex;
+    flex: 0 0 830px;
+    flex-direction: column;
+    margin: 50px;
+}
+.para > :nth-child(1) {
+    margin: 0;
+}
+
+.para > :nth-child(2) {
+    align-self: flex-end;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.blue-box {
+    display: flex;
+    color: #f9faf8;
+    padding: 25px 100px;
+    background: #3882f6;
+    margin: 50px;
+    border-radius: .5rem;
+    flex: 0 1 900px;
+    justify-content: space-between;
+}
+
+.call-box > h3, p {
+    margin: 0;
+}
+
+.call-box {
+    font-size: 10px;
+    border: 2px solid black;
+}
+
+.footer-signup {
+    border: 2px solid white;
+}
+
+.footer-signup > button {
+    background: #3882f6;
+    margin: 0;
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background: #1f2937;
+    color: #e5e7eb;
 }
