@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     height: 100%;
-  }
-
-body {
     font-family:Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     border: 2px solid green;
@@ -14,15 +11,12 @@ body {
 .top-box {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid rgb(255, 0, 106); */
     background: #1f2937;
     color: #f9faf8;
-   
 }
 
 .header-link {
     display: flex;
-    /* border: 2px solid white; */
     justify-content: space-around;
     align-items: center;
 }
@@ -47,16 +41,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* border: 2px solid rgb(15, 146, 74); */
 }
 
 .head-para {
     display: flex;
     flex: 0 0 450px;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 16px;
     align-items: flex-start;
-    /* border: 2px solid white; */
 }
 
 .head-para > h1 {
@@ -103,37 +96,32 @@ img {
     display: flex;
     flex-direction: column;
     border: 2px solid blue;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: 2px solid rgb(223, 14, 25);
 }
 
 .info > h1 {
     align-self: center;
-    border: 2px solid green;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 .product-images {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(43, 21, 245);
 }
 
 .outer-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     flex: 0 0 100px;
-    border: 2px solid rgb(19, 134, 4);
+    padding: 32px;
 }
 
 .box {
