@@ -3,7 +3,6 @@ body {
     height: 100%;
     font-family:Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    /* border: 2px solid green; */
     margin: 0;
     flex-direction: column;
 }
@@ -15,15 +14,16 @@ body {
     color: #f9faf8;
 }
 
+
+.logo-image {
+    flex: 0 0 100px;
+    margin-top: 5px;
+}
+
 .header-link {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-header {
-    font-size: 24px;
-    color: #f9faf8;
 }
 
 ul {
@@ -78,7 +78,6 @@ a {
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     margin: 16px;
 }
 
@@ -111,23 +110,24 @@ img {
 .product-images {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .outer-box {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: space-around;
+    /* text-align: center; */
     flex: 0 0 100px;
     padding: 32px;
 }
 
 .box {
-    border: 2px solid rgb(0, 195, 255);
-    border-radius: 4px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    width: 100px;
-    flex: 0 0 100px;
+    /* border: 2px solid rgb(0, 195, 255); */
+    /* border-radius: 4px; */
+    /* box-shadow: 2px 4px 16px rgba(0,0,0,.06); */
+    /* width: 100px; */
+    /* flex: 0 0 100px; */
 }
 
 .quote {
